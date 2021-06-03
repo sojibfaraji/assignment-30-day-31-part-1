@@ -1,0 +1,76 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+/* header-section */
+
+.lfwf-logo {
+    font-size: 22px;
+    color: #fc5e03;
+}
+.lfwf-logo i {
+	width: 35px;
+	height: 42px;
+	border: 2px solid #fc5e03;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 25%;
+}
+.lfwf-login{
+    color:#fc5e03 ;
+    border: 1px solid #fc5e03;
+    font-weight: 500;
+}
+
+
+/* slider-section */
+
+
+.slider-section{
+    background: url(https://i.ibb.co/z6mQq2V/ia-200000012.jpg) rgba(0,0,0,0.4) no-repeat center center;
+    padding: 180px 0;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+
+/* about-section */
+
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .text {
+    font-size: 22px;
+    line-height: 2.5rem;
+}
+
+/* feature-section */
+
+.feature-item {
+	height: 210px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec {
+	width: 50%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.left-test-sec {
+	width: 90%;
+	padding: 20px;
+}
+
+.left-img-sec img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: 0;
+}
